@@ -1,0 +1,28 @@
+
+							
+                            <table id="data-table-basic" class="table table-striped">
+                                <thead>
+                                  <tr>
+                                    <th>Name</th>
+                                    <th>Photo</th>
+                                    <th>characteristics</th>
+                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                {{#each jujutsu}}
+
+                                <tr>
+                                    
+                                    <td >{{{this.name}}}</td>
+                                    <td><img  src="{{{this.photo}}}" style="width:200px;height:240px;" class=center></td>
+                                    <td>{{{this.characteristics}}}</td>
+                                    
+                                </tr>
+                             {{/each}}
+                               
+                               
+                                </tbody>
+                            </table>
+                        
